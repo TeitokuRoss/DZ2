@@ -3,20 +3,44 @@
   margin: 0;
   box-sizing: border-box;
 }
-.header{
-    text-align: center;
-    text;
+body {
+  background: #333333;
 }
-.button{
 
+.heder {
+  text-align: center;
+  color: #ffffff;
+  padding: 6em;
+  background: url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+  height: 450px;
+}
+.div-hed {
+  padding: 25px;
+}
+.button {
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 12px;
+  border: #ffffff 1px solid;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin-top: 50px;
+  outline: none;
+  background-color: #000000bb;
+}
+.ul-center {
+  text-align: center;
 }
 .ul-position-li {
   display: inline-block;
+  vertical-align: top;
+  width: 181px;
+}
+.ul-position-li + .ul-position-li {
+  margin-left: 20px;
 }
 .div-img-item {
   display: inline-block;
-  width: 273px;
-  height: 181px;
 }
 .img {
   width: 100%;
@@ -31,14 +55,28 @@
 .section-white {
   background-color: #eaeaea;
   text-align: center;
+  padding: 2em;
 }
 .section-dark-grey {
   padding: 2em 1em 1em;
-  background-color: #333333;
 }
-.div-our-company {
-  background-color: #333333;
+#sec-d .box:first-child {
+  background: #2590d4;
 }
-.div-contact-us {
-  background-color: #2590d4;
+.box {
+  color: #ffffff;
+  padding: 2em;
+}
+
+
+.ul-ft {
+  text-align: center;
+}
+.ul-ft-position-li {
+  display: inline-block;
+}
+.ft-div-item {
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5em;
 }

@@ -6,14 +6,17 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to Acme Web Solutions</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nostrum
-        iste dolore incidunt, suscipit quidem quia cumque vero veritatis aliquid
-        hic nulla obcaecati autem corporis aspernatur dolor! Sequi, dolorem
-        laborum?
-      </p>
+    <header class="heder">
+      <div class="div-hed">
+        <h1>Welcome to Acme Web Solutions</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nostrum
+          iste dolore incidunt, suscipit quidem quia cumque vero veritatis
+          aliquid hic nulla obcaecati autem corporis aspernatur dolor! Sequi,
+          dolorem laborum?
+        </p>
+      </div>
+      <a href="#" class="button">Read More</a>
     </header>
     <main>
       <section class="section-white">
@@ -21,7 +24,7 @@
         <p>Lorem ipsum dolor sit amet.</p>
       </section>
       <section class="section-dark-grey">
-        <ul>
+        <ul class="ul-center">
           <li class="ul-position-li">
             <div class="div-img-item">
               <img
@@ -32,10 +35,8 @@
               <div class="div-list-item">
                 <h3>Web Development</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Laborum molestiae similique porro voluptatibus, iusto aliquam
-                  corporis eligendi cupiditate illo eius sit illum, repudiandae,
-                  magni quo fugit. Aliquam totam deleniti molestiae.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Neque iusto numquam unde excepturi harum culpa dolore maiores,
                 </p>
               </div>
             </div>
@@ -74,7 +75,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section-white">
         <h2>We handle all of your digital needs</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam
@@ -82,8 +83,8 @@
           explicabo.
         </p>
       </section>
-      <section>
-        <div class="div-contact-us">
+      <section id="sec-d">
+        <div class="box">
           <h2>Contact Us</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum,
@@ -91,7 +92,7 @@
           </p>
           <p>contact@acmewebsolutions.test</p>
         </div>
-        <div class="div-our-company">
+        <div class="box">
           <h2>About Our Company</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
@@ -103,12 +104,18 @@
       </section>
     </main>
     <footer>
-      <div>
-        <p>Acme Web Solutions</p>
-      </div>
-      <div>
-        <p>Project By Traversy Media</p>
-      </div>
+      <ul class="ul-ft">
+        <li class="ul-ft-position-li">
+          <div class="ft-div-item">
+            <p>Acme Web Solutions</p>
+          </div>
+        </li>
+        <li class="ul-ft-position-li">
+          <div class="ft-div-item">
+            <p>Project By Traversy Media</p>
+          </div>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
