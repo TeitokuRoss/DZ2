@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    text;
+}
+.button{
+
+}
+.ul-position-li {
+  display: inline-block;
+}
+.div-img-item {
+  display: inline-block;
+  width: 273px;
+  height: 181px;
+}
+.img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.div-list-item {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 1.5em;
+}
+.section-white {
+  background-color: #eaeaea;
+  text-align: center;
+}
+.section-dark-grey {
+  padding: 2em 1em 1em;
+  background-color: #333333;
+}
+.div-our-company {
+  background-color: #333333;
+}
+.div-contact-us {
+  background-color: #2590d4;
+}
